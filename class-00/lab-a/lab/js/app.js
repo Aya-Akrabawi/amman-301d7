@@ -18,7 +18,7 @@ const votes = [];
 
 function Product(name) {
   this.name = name;
-  this.path = 'img/${name}.jpg';
+  this.path = 'starter-code/img/${name}.jpg';
   this.votes = 0;
   this.views = 0;
   allProducts.push(this);
@@ -37,9 +37,10 @@ function displayPics(){
   }
  
   
-  // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the constiable declaration from `const to `const`.
+   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the constiable declaration from `const to `const`.
   //   because  const rando was inside the while (local scope) and we console log it it outside the scope of while 
   // PUT YOUR RESPONSE IN THIS COMMENT
+
   console.log(viewed);
 
   for (let i = 0; i < 3; i++){
